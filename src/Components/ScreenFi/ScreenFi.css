@@ -1,0 +1,94 @@
+.ScreenFivebg{
+    background: #ffffff;
+    background-attachment: fixed;
+    width:100%;
+    height: 100vh;
+}
+
+.screenFiveview{
+    margin: 0px auto;
+    text-align: center !important;
+    background:#343fb6;
+    max-width:500px;
+    width:100%;
+    height: 100%;
+    padding:20px;
+}
+
+.borderinp{
+    background: #ffffff !important ;
+    border: 2px solid #ffffff;
+    border-radius: 5px;
+    padding: 5px;
+    color: #ffffff;
+    font-size:13px;
+    font-family: 'Roboto', sans-serif !important;
+    margin:15px;
+}
+
+.wel{
+    font-size:20px;
+    font-family: 'Roboto', sans-serif !important;
+    color: #ffffff;
+    text-align: center;
+}
+
+.role{
+    font-size:16px;
+    font-family: 'Roboto', sans-serif !important;
+    color: #ffffff;
+    text-align: left;
+    padding:4px 12px ;
+}
+
+.radio__label{
+  color : #343fb6;
+}
+
+#csf{
+  color : #343fb6 !important;
+}
+
+.checkbox {
+    display: grid;
+    grid-gap: 0.5em;
+    font-size: 16px;
+    color: #ffffff;
+    text-align: left;
+  }
+  
+  .checkbox__control {
+    display: inline-grid;
+    width: 1em;
+    height: 1em;
+    border-radius: 0.25em;
+    border: 0.1em solid currentColor;
+  }
+  
+  .checkbox__input {
+    grid-template-areas: "checkbox";
+  }
+
+  .btn{
+    background: transparent;
+    border: 2px solid #ffffff;
+    border-radius: 3px;
+    color: white;
+    padding: 7px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    width: 100%;
+  }
+
+  .gridcontainer {
+    display: grid;
+    position: absolute;
+    bottom: 0;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 20px;
+    margin: 40px 15px 15px 15px;
+    margin: -8px;
+}
+  

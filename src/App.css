@@ -1,0 +1,13 @@
+
+*{
+  padding: 0px;
+  margin: 0px;
+}
+
+body {
+  font-family: 'Roboto', sans-serif !important;
+}
+
+.App {
+  text-align: center;
+}
